@@ -1,0 +1,39 @@
+.box1 {
+  overflow: hidden;
+}
+
+.box {
+  overflow: hidden;
+
+  margin-top: 20px;
+  margin: auto;
+  border: 1px solid black;
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+}
+.box:hover {
+  box-shadow: 0 0 31px rgba(0, 0, 0, 0.2);
+}
+.img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+.img:hover {
+  transform: scale(1.5);
+}
+.input {
+  color: white;
+  background-color: rgb(84, 84, 86);
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+p {
+  margin-left: 10px;
+}
+h2 {
+  margin-left: 10px;
+}
